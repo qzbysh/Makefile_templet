@@ -97,7 +97,7 @@ CFLAGS += $(INCDIRS)
 CXXFLAGS += -std=c++11
 
 # dynamic library build flags
-DYNC_FLAGS += -fpic -shared
+DYNC_FLAGS += -fPIC -shared
 
 # include directory(s)
 INCDIRS := $(addprefix -I, $(INC))
